@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Studienportfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll(".dropdown button").forEach(button => {
+                button.addEventListener("click", function() {
+                    this.parentElement.classList.toggle("active");
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Mein Studienportfolio</h1>
+        <div class="content">
+            <div class="text-section">
+                <p><strong>Mein Studienportfolio ist eine Reise durch meine Motivation, meine Ziele und meine Vision für die Zukunft.</strong> Es zeigt, was mich inspiriert hat, diesen Weg einzuschlagen, welche Herausforderungen und Chancen mich geprägt haben und wie ich meine Zukunft in Data Science und Machine Learning sehe. Ich reflektiere meine Stärken, meine Lernziele und die Möglichkeiten, die mir das Studium bietet. Mit diesem Portfolio halte ich nicht nur meine Entwicklung fest, sondern setze auch klare Meilensteine für meinen weiteren Weg!</p>
+            </div>
+            <div class="image-section">
+                <img src="https://i.ibb.co/vvMFQJPx/DIS.png" alt="DIS" border="0">
+            </div>
+        </div>
+        
+        <div class="dropdown">
+            <button>Mein Weg zu meinem Motto</button>
+            <div class="dropdown-content">
+                <p><strong>Motto:</strong> „Never Stop Learning“</p>
+                <p>Mein Motto ist eng mit meiner persönlichen Entwicklung verbunden. Schon früh hat mich meine Neugier dazu gebracht, neue Dinge auszuprobieren, sei es in der Technik, in Sprachen oder in kreativen Bereichen. Besonders in Data Science habe ich schnell gemerkt, dass dieses Feld sich rasant weiterentwickelt und man nie auslernt.</p>
+                <p>Mein Bild steht für meine Überzeugung, dass Lernen und Fortschritt untrennbar verbunden sind. Dieses Motto motiviert mich, immer offen für neue Technologien und Methoden zu bleiben, Herausforderungen anzunehmen und meine Fähigkeiten ständig weiterzuentwickeln.</p>
+            </div>
+        </div>
+        
+        <div class="dropdown">
+            <button>Mein Ziel</button>
+            <div class="dropdown-content">
+                <p>Als Data Scientist mit Fokus auf Machine Learning will ich spannende KI-Systeme entwickeln, die echte Probleme lösen. Mein Studium gibt mir dafür das nötige Rüstzeug durch Module wie Big Data, Data Mining und Natural Language Processing.</p>
+                <p>Puh, manchmal ist das echt heftig - die Mathematik hinter Machine Learning bringt mich regelmäßig zum Schwitzen und die Algorithmen sind oft super komplex. Gefühlt kommt jeden Monat eine neue Technologie dazu, die man auch noch lernen soll. Aber ehrlich? Wenn nach stundenlangem Tüfteln der Code endlich läuft, ist das einfach ein mega Gefühl. Das motiviert mich dann immer weiterzumachen, auch wenn's manchmal echt hart ist.</p>
+            </div>
+        </div>
+        
+        <div class="dropdown">
+            <button>Das Studienangebot</button>
+            <div class="dropdown-content">
+                <p>Jetzt im 5. Semester kann ich richtig gut einschätzen, wie perfekt das Absolventenprofil zu meinen Zielen passt. Die Mischung aus tiefem technischem Verständnis und praktischer Problemlösung, die wir hier lernen, ist genau das, was ich brauchte, um in die KI-Entwicklung einzusteigen.</p>
+                <p>Die Programmier-Module haben mir eine super Basis gegeben, auch wenn ich mir manchmal mehr Praxis-Projekte gewünscht hätte. Aktuell freue ich mich besonders auf die Advanced Machine Learning Kurse, wo wir endlich richtig in die Tiefe gehen.</p>
+                <p>Was ich nach fünf Semestern noch vermisse? Mehr Hands-on Erfahrung mit aktuellen KI-Frameworks, vielleicht sehe ich mehr davon im 6. und 7. Semester. Aber hole ich mir unbedingt mehr durch Praktika und andere Projekte.</p>
+            </div>
+        </div>
+               
+        <div class="dropdown">
+            <button>Wunsch-Stellenanzeige: Praktikum bei Porsche</button>
+            <div class="dropdown-content">
+                <p>Wenn ich mich jetzt für einen Job/Praktikum entscheiden müsste, würde ich mich für dieses Praktikum bei Porsche entscheiden.</p>
+                <p>Hier sind die relevanten Screenshots und Link der Stellenanzeige:</p>
+                <p>Link: https://www.linkedin.com/jobs/search/?currentJobId=3867054089</p>
+                <div class="image-grid">
+                    <img src="https://i.ibb.co/6Rydd7mm/11.png" alt="11" border="0">
+                    <img src="https://i.ibb.co/8DKw3c3x/12.png" alt="12" border="0">
+                    <img src="https://i.ibb.co/Z1fKdWHw/13.png" alt="13" border="0">
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Erstellt von: Abdelilah Imam | Datum: 14. Feb 2025 | Studiengang: Data and Information Science</p>
+        </div>
+    </div>
+</body>
+</html>
