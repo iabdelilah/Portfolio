@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(120deg, #f4f4f4, #e0e0e0);
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #444;
+            text-align: center;
+        }
+        .content {
+            display: flex;
+            align-items: center;
+        }
+        .text-section {
+            flex: 1;
+            padding-right: 20px;
+        }
+        .image-section {
+            flex: 1;
+            text-align: right;
+        }
+        .image-section img {
+            max-width: 80%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .dropdown {
+            background: #f9f9f9;
+            border-radius: 8px;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+        }
+        .dropdown button {
+            width: 100%;
+            background: none;
+            border: none;
+            color: #333;
+            font-size: 18px;
+            text-align: left;
+            padding: 10px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+        }
+        .dropdown-content {
+            display: none;
+            padding: 10px;
+            color: #333;
+        }
+        .dropdown.active .dropdown-content {
+            display: block;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            padding: 10px;
+            justify-items: center;
+        }
+        .image-grid img {
+            width: 250px;
+            height: auto;
+            border-radius: 5px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="studienportfolio">Mein Studienportfolio</h1>
+        <div class="content">
+            <div class="text-section">
+                <p><strong>Mein Studienportfolio ist eine Reise durch meine Motivation, meine Ziele und meine Vision für die Zukunft.</strong> Es zeigt, was mich inspiriert hat, diesen Weg einzuschlagen, welche Herausforderungen und Chancen mich geprägt haben und wie ich meine Zukunft in Data Science und Machine Learning sehe.</p>
+            </div>
+            <div class="image-section">
+                <img src="https://i.ibb.co/vvMFQJPx/DIS.png" alt="DIS" border="0">
+            </div>
+        </div>
+        
+        <h2 id="motto">Mein Weg zu meinem Motto</h2>
+        <p><strong>Motto:</strong> „Never Stop Learning“</p>
+        
+        <h2 id="ziel">Mein Ziel</h2>
+        <p>Als Data Scientist mit Fokus auf Machine Learning will ich spannende KI-Systeme entwickeln, die echte Probleme lösen.</p>
+        
+        <h2 id="studienangebot">Das Studienangebot</h2>
+        <p>Jetzt im 5. Semester kann ich richtig gut einschätzen, wie perfekt das Absolventenprofil zu meinen Zielen passt.</p>
+        
+        <h2 id="praktikum">Wunsch-Stellenanzeige: Praktikum bei Porsche</h2>
+        <p>Wenn ich mich jetzt für einen Job/Praktikum entscheiden müsste, würde ich mich für dieses Praktikum bei Porsche entscheiden.</p>
+        <p><a href="https://www.linkedin.com/jobs/search/?currentJobId=3867054089">Zur Stellenanzeige</a></p>
+        
+        <div class="footer">
+            <p>Erstellt von: Abdelilah Imam | Datum: 14. Feb 2025 | Studiengang: Data and Information Science</p>
+        </div>
+    </div>
+</body>
+</html>
